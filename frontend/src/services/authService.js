@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/auth";
+const API_URL = "https://event-booking-website-kj57.onrender.com";
 
 export const registerUser = async (userData) => {
   const response = await axios.post(

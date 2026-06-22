@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API_URL =
-  "http://localhost:5000/api/bookings";
+  "https://event-booking-website-kj57.onrender.com";
 
 export const createBooking = async (
   bookingData

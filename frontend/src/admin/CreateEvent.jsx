@@ -15,7 +15,7 @@ const [organizer, setOrganizer] = useState("");
   const handleSubmit = async () => {
     try {
       const response = await fetch(
-        "http://localhost:5000/api/events",
+        "https://event-booking-website-kj57.onrender.com",
         {
           method: "POST",
           headers: {
